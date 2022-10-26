@@ -1,0 +1,10 @@
+version: "3"
+services:
+ 
+
+ 
+  minidb:
+    image: miniob:latest
+    volumes:
+      - ./:/root/source/miniob/
+ 
